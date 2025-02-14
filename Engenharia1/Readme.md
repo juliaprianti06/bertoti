@@ -25,3 +25,11 @@ How an organization will need to adapt as it evolves
  
 Trade-offs and Costs
 How an organization makes decisions, based on the lessons of Time and Change and Scale and Growth
+
+No livro Programming Over Time, retrata sobre como é o processor de desenvolver um código e como as organizações e seus programadores mantém um código limpo e compreendível. O livro cita 3 principios fundamentais que empresas devem manter para melhor aproveitamento, são eles: Tempo e mudança, escala e crescimento, compensação e custos.
+
+
+Exemplos de trade-off:
+1. Java vs Python - Python é mais lento porém com uma linguagem mais simples, Java é uma linguagem universal podendo ser utlizado em qualquer plataforma ou sistema operacional porém com regras de sintáticas mais complexas.
+2. Windows vs Linux - Windows  
+3. Banco 2000 vs Banco 2010 - Banco 2000 era mais simples porém com menos escala, Banco 2010 possui mais escalabilidade entretanto com mais custos. 
