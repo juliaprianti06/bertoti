@@ -31,5 +31,5 @@ No livro Programming Over Time, retrata sobre como é o processor de desenvolver
 
 Exemplos de trade-off:
 1. Java vs Python - Python é mais lento porém com uma linguagem mais simples, Java é uma linguagem universal podendo ser utlizado em qualquer plataforma ou sistema operacional porém com regras de sintáticas mais complexas.
-2. Windows vs Linux - Windows  
+2. Windows vs Linux - Linux possui mais segurança e privacidade, entretanto há uma instalação mais complexa, Windows tem mais opções a serem instaladas porém é um produto com código fechado.
 3. Banco 2000 vs Banco 2010 - Banco 2000 era mais simples porém com menos escala, Banco 2010 possui mais escalabilidade entretanto com mais custos. 
