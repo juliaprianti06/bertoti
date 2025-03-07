@@ -10,6 +10,7 @@ No texto lido, é retratado sobre a profissão engenheiro de software. Há muita
 Um engenheiro de software trabalha com coisas intangíveis, ou seja, é algo lógico e calculado. Erros causados na engenharia de software não causam tanto impacto como podem ser causadas em outras engenharias.
 Contudo, a engenharia de software se encontra cada vez mais presente no cotidiano da sociedade.
 
+
 Programming Over Time
 We propose that “software engineering” encompasses not just the act of writing code, but all of the tools and processes an organization uses to build and maintain that code over time. What practices can a software organization introduce that will best keep its code valuable over the long term? How can engineers make a codebase more sustainable and the software engineering discipline itself more rigorous? We don’t have fundamental answers to these questions, but we hope that Google’s collective experience over the past two decades illuminates possible paths toward finding those answers.
  
@@ -29,7 +30,14 @@ How an organization makes decisions, based on the lessons of Time and Change and
 No livro Programming Over Time, retrata sobre como é o processor de desenvolver um código e como as organizações e seus programadores mantém um código limpo e compreendível. O livro cita 3 principios fundamentais que empresas devem manter para melhor aproveitamento, são eles: Tempo e mudança, escala e crescimento, compensação e custos.
 
 
+
 Exemplos de trade-off:
 1. Java vs Python - Python é mais lento porém com uma linguagem mais simples, Java é uma linguagem universal podendo ser utlizado em qualquer plataforma ou sistema operacional porém com regras de sintáticas mais complexas.
 2. Windows vs Linux - Linux possui mais segurança e privacidade, entretanto há uma instalação mais complexa, Windows tem mais opções a serem instaladas porém é um produto com código fechado.
 3. Banco 2000 vs Banco 2010 - Banco 2000 era mais simples porém com menos escala, Banco 2010 possui mais escalabilidade entretanto com mais custos. 
+
+
+
+
+Comentário da imagem do slide:
+Na imagem vemos um exemplo de MVP, para uma primeira entrega é necessário o mínimo produto viável(MVP), entretanto tem que ser algo funcional, que já ajude o cliente a utilizar o produto, mesmo que não seja o produto final. 
