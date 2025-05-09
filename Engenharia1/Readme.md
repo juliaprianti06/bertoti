@@ -36,6 +36,10 @@ Exemplos de trade-off:
 2. Windows vs Linux - Linux possui mais segurança e privacidade, entretanto há uma instalação mais complexa, Windows tem mais opções a serem instaladas porém é um produto com código fechado.
 3. Banco 2000 vs Banco 2010 - Banco 2000 era mais simples porém com menos escala, Banco 2010 possui mais escalabilidade entretanto com mais custos. 
 
+Comentário da imagem do slide:
+Na imagem vemos um exemplo de MVP, para uma primeira entrega é necessário o mínimo produto viável(MVP), entretanto tem que ser algo funcional, que já ajude o cliente a utilizar o produto, mesmo que não seja o produto final.
+
+
 Código: 
 
 package cadastro_cliente;
@@ -135,5 +139,4 @@ public class Main {
 }
 
 
-Comentário da imagem do slide:
-Na imagem vemos um exemplo de MVP, para uma primeira entrega é necessário o mínimo produto viável(MVP), entretanto tem que ser algo funcional, que já ajude o cliente a utilizar o produto, mesmo que não seja o produto final. 
+ 
