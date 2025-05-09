@@ -36,7 +36,103 @@ Exemplos de trade-off:
 2. Windows vs Linux - Linux possui mais segurança e privacidade, entretanto há uma instalação mais complexa, Windows tem mais opções a serem instaladas porém é um produto com código fechado.
 3. Banco 2000 vs Banco 2010 - Banco 2000 era mais simples porém com menos escala, Banco 2010 possui mais escalabilidade entretanto com mais custos. 
 
+Código: 
 
+package cadastro_cliente;
+public class Cadastro_cliente {
+    private int id;
+    private String nome;
+    private String email;
+    
+ public Cadastro_cliente(int id, String nome, String email){
+     this.id = id;
+     this.nome = nome;
+     this.email = email;
+ }
+ 
+ public int getid(){
+     return id;
+ }
+public String getnome(){
+    return nome;
+}
+public String getemail(){
+    return email;
+}
+public void setid(int id){
+    this.id = id; 
+}
+public void setnome(String nome){
+    this.nome = nome;
+}
+public void setemail(String email){
+    this.email = email;
+}
+ @Override
+    public String toString() {
+        return "ID: " + id + ", Nome: " + nome + ", Email: " + email;
+    }
+}
+
+package cadastro_cliente;
+
+import java.util.List;
+import java.util.LinkedList;
+
+public class Loja {
+    private List<Cadastro_cliente> cadastro_Clientes = new LinkedList<Cadastro_cliente>();
+     public void addCadastro_cliente(Cadastro_cliente novoCadastro) {
+        cadastro_Clientes.add(novoCadastro);
+        
+    }
+     public Cadastro_cliente buscarID(int id) {
+        for (Cadastro_cliente cliente : cadastro_Clientes) {
+            if (cliente.getid() == id) {
+                return cliente; 
+            }
+        }
+        return null;
+    }
+        public List<Cadastro_cliente> buscarNome(String nome){
+            List<Cadastro_cliente> encontrados = new LinkedList<Cadastro_cliente>();
+            for(Cadastro_cliente Cadastro_cliente: cadastro_Clientes) {
+		if(Cadastro_cliente.getnome().equals(nome)) encontrados.add(Cadastro_cliente);
+		}
+		return encontrados;
+	}
+	
+	public List<Cadastro_cliente> getCadastro_cliente(){
+		return cadastro_Clientes;
+	}
+}
+package cadastro_cliente;
+
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        Loja loja = new Loja();
+        Cadastro_cliente cliente1 = new Cadastro_cliente(1, "João", "joao@gmail.com");
+        Cadastro_cliente cliente2 = new Cadastro_cliente(2, "Maria", "maria@gmail.com");
+       
+        loja.addCadastro_cliente(cliente1);
+        loja.addCadastro_cliente(cliente2);
+       
+         Cadastro_cliente clienteBuscadoID = loja.buscarID(1);
+        if (clienteBuscadoID != null) {
+            System.out.println("Cliente encontrado pelo ID: " + clienteBuscadoID);
+        } else {
+            System.out.println("Cliente não encontrado pelo ID.");
+        }
+
+        List<Cadastro_cliente> clientesEncontrados = loja.buscarNome("João");
+        System.out.println("Clientes encontrados pelo nome 'João':");
+        for (Cadastro_cliente cliente : clientesEncontrados) {
+            System.out.println(cliente);
+        }
+        
+    }
+}
 
 
 Comentário da imagem do slide:
