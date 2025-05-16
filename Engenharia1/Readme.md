@@ -6,6 +6,7 @@ The terms “programming” and “software engineering” have been used interc
  
 Unlike those more established engineering professions, current software engineering theory or practice is not nearly as rigorous. Aeronautical engineers must follow rigid guidelines and practices, because errors in their calculations can cause real damage; programming, on the whole, has traditionally not followed such rigorous practices. But, as software becomes more integrated into our lives, we must adopt and rely on more rigorous engineering methods. We hope this book helps others see a path toward more reliable software practices.
 
+#Atividade 1#
 No texto lido, é retratado sobre a profissão engenheiro de software. Há muitas áreas na engenharia, entretanto, a engenharia de software é nova no mercado, o que ocasiona confusão sobre o que é e a diferença entre outras profissões. 
 Um engenheiro de software trabalha com coisas intangíveis, ou seja, é algo lógico e calculado. Erros causados na engenharia de software não causam tanto impacto como podem ser causadas em outras engenharias.
 Contudo, a engenharia de software se encontra cada vez mais presente no cotidiano da sociedade.
