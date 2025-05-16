@@ -6,7 +6,7 @@ The terms “programming” and “software engineering” have been used interc
  
 Unlike those more established engineering professions, current software engineering theory or practice is not nearly as rigorous. Aeronautical engineers must follow rigid guidelines and practices, because errors in their calculations can cause real damage; programming, on the whole, has traditionally not followed such rigorous practices. But, as software becomes more integrated into our lives, we must adopt and rely on more rigorous engineering methods. We hope this book helps others see a path toward more reliable software practices.
 
-# Atividade 1#
+# Atividade 1
 No texto lido, é retratado sobre a profissão engenheiro de software. Há muitas áreas na engenharia, entretanto, a engenharia de software é nova no mercado, o que ocasiona confusão sobre o que é e a diferença entre outras profissões. 
 Um engenheiro de software trabalha com coisas intangíveis, ou seja, é algo lógico e calculado. Erros causados na engenharia de software não causam tanto impacto como podem ser causadas em outras engenharias.
 Contudo, a engenharia de software se encontra cada vez mais presente no cotidiano da sociedade.
@@ -27,21 +27,21 @@ How an organization will need to adapt as it evolves
  
 Trade-offs and Costs
 How an organization makes decisions, based on the lessons of Time and Change and Scale and Growth
-# Atividade 2#
+# Atividade 2
 No livro Programming Over Time, retrata sobre como é o processor de desenvolver um código e como as organizações e seus programadores mantém um código limpo e compreendível. O livro cita 3 principios fundamentais que empresas devem manter para melhor aproveitamento, são eles: Tempo e mudança, escala e crescimento, compensação e custos.
 
 
-# Atividade 3#
+# Atividade 3
 Exemplos de trade-off:
 1. Java vs Python - Python é mais lento porém com uma linguagem mais simples, Java é uma linguagem universal podendo ser utlizado em qualquer plataforma ou sistema operacional porém com regras de sintáticas mais complexas.
 2. Windows vs Linux - Linux possui mais segurança e privacidade, entretanto há uma instalação mais complexa, Windows tem mais opções a serem instaladas porém é um produto com código fechado.
 3. Banco 2000 vs Banco 2010 - Banco 2000 era mais simples porém com menos escala, Banco 2010 possui mais escalabilidade entretanto com mais custos. 
 
-# Atividade 4#
+# Atividade 4
 Comentário da imagem do slide:
 Na imagem vemos um exemplo de MVP, para uma primeira entrega é necessário o mínimo produto viável(MVP), entretanto tem que ser algo funcional, que já ajude o cliente a utilizar o produto, mesmo que não seja o produto final.
 
-# Atividade 5#
+# Atividade 5
 
 Código: 
 
