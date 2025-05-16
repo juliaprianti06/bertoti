@@ -43,39 +43,45 @@ Na imagem vemos um exemplo de MVP, para uma primeira entrega é necessário o m�
 
 # Atividade 5
 
-Código: 
-
+```java
 package cadastro_cliente;
+
 public class Cadastro_cliente {
     private int id;
     private String nome;
     private String email;
-    
- public Cadastro_cliente(int id, String nome, String email){
-     this.id = id;
-     this.nome = nome;
-     this.email = email;
- }
- 
- public int getid(){
-     return id;
- }
-public String getnome(){
-    return nome;
-}
-public String getemail(){
-    return email;
-}
-public void setid(int id){
-    this.id = id; 
-}
-public void setnome(String nome){
-    this.nome = nome;
-}
-public void setemail(String email){
-    this.email = email;
-}
- @Override
+
+    public Cadastro_cliente(int id, String nome, String email) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+    }
+
+    public int getid() {
+        return id;
+    }
+
+    public String getnome() {
+        return nome;
+    }
+
+    public String getemail() {
+        return email;
+    }
+
+    public void setid(int id) {
+        this.id = id;
+    }
+
+    public void setnome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setemail(String email) {
+        this.email = email;
+    }
+
+    @Override
     public String toString() {
         return "ID: " + id + ", Nome: " + nome + ", Email: " + email;
     }
@@ -88,29 +94,32 @@ import java.util.LinkedList;
 
 public class Loja {
     private List<Cadastro_cliente> cadastro_Clientes = new LinkedList<Cadastro_cliente>();
-     public void addCadastro_cliente(Cadastro_cliente novoCadastro) {
+
+    public void addCadastro_cliente(Cadastro_cliente novoCadastro) {
         cadastro_Clientes.add(novoCadastro);
-        
     }
-     public Cadastro_cliente buscarID(int id) {
+
+    public Cadastro_cliente buscarID(int id) {
         for (Cadastro_cliente cliente : cadastro_Clientes) {
             if (cliente.getid() == id) {
-                return cliente; 
+                return cliente;
             }
         }
         return null;
     }
-        public List<Cadastro_cliente> buscarNome(String nome){
-            List<Cadastro_cliente> encontrados = new LinkedList<Cadastro_cliente>();
-            for(Cadastro_cliente Cadastro_cliente: cadastro_Clientes) {
-		if(Cadastro_cliente.getnome().equals(nome)) encontrados.add(Cadastro_cliente);
-		}
-		return encontrados;
-	}
-	
-	public List<Cadastro_cliente> getCadastro_cliente(){
-		return cadastro_Clientes;
-	}
+
+    public List<Cadastro_cliente> buscarNome(String nome) {
+        List<Cadastro_cliente> encontrados = new LinkedList<Cadastro_cliente>();
+        for (Cadastro_cliente Cadastro_cliente : cadastro_Clientes) {
+            if (Cadastro_cliente.getnome().equals(nome))
+                encontrados.add(Cadastro_cliente);
+        }
+        return encontrados;
+    }
+
+    public List<Cadastro_cliente> getCadastro_cliente() {
+        return cadastro_Clientes;
+    }
 }
 package cadastro_cliente;
 
@@ -121,11 +130,11 @@ public class Main {
         Loja loja = new Loja();
         Cadastro_cliente cliente1 = new Cadastro_cliente(1, "João", "joao@gmail.com");
         Cadastro_cliente cliente2 = new Cadastro_cliente(2, "Maria", "maria@gmail.com");
-       
+
         loja.addCadastro_cliente(cliente1);
         loja.addCadastro_cliente(cliente2);
-       
-         Cadastro_cliente clienteBuscadoID = loja.buscarID(1);
+
+        Cadastro_cliente clienteBuscadoID = loja.buscarID(1);
         if (clienteBuscadoID != null) {
             System.out.println("Cliente encontrado pelo ID: " + clienteBuscadoID);
         } else {
@@ -137,9 +146,6 @@ public class Main {
         for (Cadastro_cliente cliente : clientesEncontrados) {
             System.out.println(cliente);
         }
-        
     }
 }
 
-
- 
