@@ -1,5 +1,8 @@
 package cenario_2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Carrinho {
     private List<Double> itens = new ArrayList<>();
     private Desconto desconto;
